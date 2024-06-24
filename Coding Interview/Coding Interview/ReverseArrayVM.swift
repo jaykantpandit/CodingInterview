@@ -21,7 +21,7 @@ class ReverseArrayVM: ObservableObject{
     // MARK: - Print array in revers
     func method2(){
         for i in 0...elements.count-1{
-            print(elements[elements.count-i-1])
+            print(elements[elements.count-1-i])
         }
     }
     
@@ -36,7 +36,6 @@ class ReverseArrayVM: ObservableObject{
             start += 1
             end -= 1
         }
-        print(elements)
     }
     
     // MARK: - Recursion Method

@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B025D0F2C15ACB40098278A /* ZigZagFashion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B025D0E2C15ACB30098278A /* ZigZagFashion.swift */; };
 		6B2013432C09C699002137E4 /* MinMaxInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2013422C09C699002137E4 /* MinMaxInArray.swift */; };
 		6B2013452C0A4A0B002137E4 /* SortArray012.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2013442C0A4A0B002137E4 /* SortArray012.swift */; };
 		6B2013472C0CAAFD002137E4 /* NegativeOnSideVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2013462C0CAAFD002137E4 /* NegativeOnSideVM.swift */; };
+		6B2013492C14C186002137E4 /* ModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2013482C14C186002137E4 /* ModelList.swift */; };
+		6B20134B2C14D587002137E4 /* QuestionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B20134A2C14D587002137E4 /* QuestionDetailView.swift */; };
+		6B78275C2C27420700282319 /* QuestionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B78275B2C27420700282319 /* QuestionListViewModel.swift */; };
+		6BDBBB5B2C1A14F500299458 /* UnionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBBB5A2C1A14F500299458 /* UnionVM.swift */; };
+		6BDBBB5D2C1A1FA300299458 /* IntersectionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBBB5C2C1A1FA300299458 /* IntersectionVM.swift */; };
+		6BDBEF082C1B07E2006E1DF5 /* backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBEF072C1B07E2006E1DF5 /* backup.swift */; };
+		6BDBEF0A2C1C0431006E1DF5 /* ArrayRotationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBEF092C1C0431006E1DF5 /* ArrayRotationVM.swift */; };
 		6BE050352C08EEC600E7C47C /* Coding_InterviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE050342C08EEC600E7C47C /* Coding_InterviewApp.swift */; };
 		6BE050372C08EEC600E7C47C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE050362C08EEC600E7C47C /* ContentView.swift */; };
 		6BE050392C08EEC800E7C47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE050382C08EEC800E7C47C /* Assets.xcassets */; };
@@ -18,9 +26,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B025D0E2C15ACB30098278A /* ZigZagFashion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagFashion.swift; sourceTree = "<group>"; };
 		6B2013422C09C699002137E4 /* MinMaxInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMaxInArray.swift; sourceTree = "<group>"; };
 		6B2013442C0A4A0B002137E4 /* SortArray012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArray012.swift; sourceTree = "<group>"; };
 		6B2013462C0CAAFD002137E4 /* NegativeOnSideVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeOnSideVM.swift; sourceTree = "<group>"; };
+		6B2013482C14C186002137E4 /* ModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelList.swift; sourceTree = "<group>"; };
+		6B20134A2C14D587002137E4 /* QuestionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDetailView.swift; sourceTree = "<group>"; };
+		6B78275B2C27420700282319 /* QuestionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListViewModel.swift; sourceTree = "<group>"; };
+		6BDBBB5A2C1A14F500299458 /* UnionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionVM.swift; sourceTree = "<group>"; };
+		6BDBBB5C2C1A1FA300299458 /* IntersectionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionVM.swift; sourceTree = "<group>"; };
+		6BDBEF072C1B07E2006E1DF5 /* backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backup.swift; sourceTree = "<group>"; };
+		6BDBEF092C1C0431006E1DF5 /* ArrayRotationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayRotationVM.swift; sourceTree = "<group>"; };
 		6BE050312C08EEC600E7C47C /* Coding Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coding Interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE050342C08EEC600E7C47C /* Coding_InterviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding_InterviewApp.swift; sourceTree = "<group>"; };
 		6BE050362C08EEC600E7C47C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,10 +77,18 @@
 			children = (
 				6BE050342C08EEC600E7C47C /* Coding_InterviewApp.swift */,
 				6BE050362C08EEC600E7C47C /* ContentView.swift */,
+				6B78275B2C27420700282319 /* QuestionListViewModel.swift */,
+				6B20134A2C14D587002137E4 /* QuestionDetailView.swift */,
 				6BE050422C08F10B00E7C47C /* ReverseArrayVM.swift */,
 				6B2013422C09C699002137E4 /* MinMaxInArray.swift */,
 				6B2013442C0A4A0B002137E4 /* SortArray012.swift */,
 				6B2013462C0CAAFD002137E4 /* NegativeOnSideVM.swift */,
+				6B025D0E2C15ACB30098278A /* ZigZagFashion.swift */,
+				6BDBBB5A2C1A14F500299458 /* UnionVM.swift */,
+				6BDBBB5C2C1A1FA300299458 /* IntersectionVM.swift */,
+				6BDBEF092C1C0431006E1DF5 /* ArrayRotationVM.swift */,
+				6B2013482C14C186002137E4 /* ModelList.swift */,
+				6BDBEF072C1B07E2006E1DF5 /* backup.swift */,
 				6BE050382C08EEC800E7C47C /* Assets.xcassets */,
 				6BE0503A2C08EEC800E7C47C /* Preview Content */,
 			);
@@ -150,11 +174,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BE050372C08EEC600E7C47C /* ContentView.swift in Sources */,
+				6BDBEF082C1B07E2006E1DF5 /* backup.swift in Sources */,
+				6B20134B2C14D587002137E4 /* QuestionDetailView.swift in Sources */,
 				6B2013452C0A4A0B002137E4 /* SortArray012.swift in Sources */,
 				6BE050432C08F10B00E7C47C /* ReverseArrayVM.swift in Sources */,
+				6B025D0F2C15ACB40098278A /* ZigZagFashion.swift in Sources */,
+				6BDBBB5D2C1A1FA300299458 /* IntersectionVM.swift in Sources */,
 				6B2013472C0CAAFD002137E4 /* NegativeOnSideVM.swift in Sources */,
+				6BDBEF0A2C1C0431006E1DF5 /* ArrayRotationVM.swift in Sources */,
+				6B2013492C14C186002137E4 /* ModelList.swift in Sources */,
+				6B78275C2C27420700282319 /* QuestionListViewModel.swift in Sources */,
 				6B2013432C09C699002137E4 /* MinMaxInArray.swift in Sources */,
 				6BE050352C08EEC600E7C47C /* Coding_InterviewApp.swift in Sources */,
+				6BDBBB5B2C1A14F500299458 /* UnionVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -270,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -295,6 +327,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +356,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
