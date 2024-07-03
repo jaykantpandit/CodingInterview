@@ -22,7 +22,7 @@
 		6BE050372C08EEC600E7C47C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE050362C08EEC600E7C47C /* ContentView.swift */; };
 		6BE050392C08EEC800E7C47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE050382C08EEC800E7C47C /* Assets.xcassets */; };
 		6BE0503C2C08EEC800E7C47C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE0503B2C08EEC800E7C47C /* Preview Assets.xcassets */; };
-		6BE050432C08F10B00E7C47C /* ReverseArrayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE050422C08F10B00E7C47C /* ReverseArrayVM.swift */; };
+		6BE050432C08F10B00E7C47C /* TestVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE050422C08F10B00E7C47C /* TestVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,7 @@
 		6BE050362C08EEC600E7C47C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6BE050382C08EEC800E7C47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BE0503B2C08EEC800E7C47C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6BE050422C08F10B00E7C47C /* ReverseArrayVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseArrayVM.swift; sourceTree = "<group>"; };
+		6BE050422C08F10B00E7C47C /* TestVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 				6BE050362C08EEC600E7C47C /* ContentView.swift */,
 				6B78275B2C27420700282319 /* QuestionListViewModel.swift */,
 				6B20134A2C14D587002137E4 /* QuestionDetailView.swift */,
-				6BE050422C08F10B00E7C47C /* ReverseArrayVM.swift */,
+				6BE050422C08F10B00E7C47C /* TestVM.swift */,
 				6B2013422C09C699002137E4 /* MinMaxInArray.swift */,
 				6B2013442C0A4A0B002137E4 /* SortArray012.swift */,
 				6B2013462C0CAAFD002137E4 /* NegativeOnSideVM.swift */,
@@ -119,6 +119,8 @@
 			dependencies = (
 			);
 			name = "Coding Interview";
+			packageProductDependencies = (
+			);
 			productName = "Coding Interview";
 			productReference = 6BE050312C08EEC600E7C47C /* Coding Interview.app */;
 			productType = "com.apple.product-type.application";
@@ -147,6 +149,8 @@
 				Base,
 			);
 			mainGroup = 6BE050282C08EEC600E7C47C;
+			packageReferences = (
+			);
 			productRefGroup = 6BE050322C08EEC600E7C47C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -177,7 +181,7 @@
 				6BDBEF082C1B07E2006E1DF5 /* backup.swift in Sources */,
 				6B20134B2C14D587002137E4 /* QuestionDetailView.swift in Sources */,
 				6B2013452C0A4A0B002137E4 /* SortArray012.swift in Sources */,
-				6BE050432C08F10B00E7C47C /* ReverseArrayVM.swift in Sources */,
+				6BE050432C08F10B00E7C47C /* TestVM.swift in Sources */,
 				6B025D0F2C15ACB40098278A /* ZigZagFashion.swift in Sources */,
 				6BDBBB5D2C1A1FA300299458 /* IntersectionVM.swift in Sources */,
 				6B2013472C0CAAFD002137E4 /* NegativeOnSideVM.swift in Sources */,

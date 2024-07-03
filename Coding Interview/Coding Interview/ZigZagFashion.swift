@@ -38,6 +38,7 @@ class ZigZagFashion: ObservableObject{
             }
         }
         print(elements)
-        
     }
 }
+
+
